@@ -48,7 +48,7 @@ async def main () :
         sym = exchange.symbols
         print(time[a])
 
-        clique(timegui[a])
+        #clique(timegui[a])
         for sym in sym:
             #print(sym)		
             if ("BTC" in sym) and ("ICN" not in sym)and ("BCC" not in sym)and ("AE" not in sym)and ("TORJ" not in sym)and ("BCN" not in sym)and("TKO" not in sym)and("AUTO" not in sym)and ("EPS" not in sym)and ("CAKE" not in sym)and ("KAVA" not in sym)and ("SUPER" not in sym)and ("CFX" not in sym)and ("ZAR" not in sym):
